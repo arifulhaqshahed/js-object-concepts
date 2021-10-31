@@ -4,6 +4,9 @@ const student = {
     class: 'eleven'
 }
 const keys = Object.keys(student);
+/* for (const key of keys) {
+    console.log(key);
+} */
 // console.log(keys);
 
 const values = Object.values(student);
