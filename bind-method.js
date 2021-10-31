@@ -15,4 +15,9 @@ const balam = {
 }
 const treatwillGiven = kibria.givenTreat.bind(balam);
 treatwillGiven(500);
-console.log(balam);
+// console.log(balam);
+
+
+
+const getGirlFriend= (name = "chokina")=>"name";
+console.log(getGirlFriend());

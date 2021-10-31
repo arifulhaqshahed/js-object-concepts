@@ -14,10 +14,11 @@ const values = Object.values(student);
 
 const pairs = Object.entries(student);
 // console.log(pairs);
-// Object.seal(student);
-Object.freeze(student);
-delete student.age;
-student.age = 34;
+Object.seal(student);
+// Object.freeze(student);
+student.address = 'dhaka';
+// delete student.age;
+// student.age = 34;
 // console.log(student);
 
 
